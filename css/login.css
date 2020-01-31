@@ -1,0 +1,48 @@
+@charset "utf-8";
+* {
+	margin:0 auto;
+	padding:0;
+}
+body {
+	background:url(../images/lo_bg.jpg) #1078d8 repeat-x;
+	color:#000;
+	font-size:12px;
+}
+.login_t {
+	background-image: url(../images/lo_box.jpg);
+	height: 55px;
+	width: 652px;
+}
+.login_box {
+	width: 652px;
+	color:#074c8d;
+}
+.box {
+	background-image: url(../images/box_bg.jpg);
+	background-repeat: repeat-x;
+	height: 18px;
+	border: 1px solid #6ba0d3;
+	width:100px;
+	color:#074c8d;
+	line-height:18px;
+	font-size:12px;
+}
+.dl {
+	background-image: url(../images/login.jpg);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 65px;
+	border:0;
+	cursor:pointer;
+}
+html, body {
+	height: 100%;
+}
+img {
+	border:0;
+}
+.lo_right {
+	background-image: url(../images/lo_right.jpg);
+	height:315px;
+	width: 173px;
+}

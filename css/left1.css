@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+
+body {font:400 12px/25px "微软雅黑"; color:#1f1f1f;}
+
+a{color:#333;text-decoration:none; outline:none;}
+img{ border:0;}
+.clear{clear:both;}
+.float_l { float:left;}
+
+
+.hst_let { width:218px; height:100%; float:left; overflow:hidden; overflow-y:auto; overflow-x:no; background: url(../images/img_13.jpg) repeat-y; position:absolute;}
+
+
+.side_logo{ width:218px; height:78px; background: url(../images/logo.jpg) 0px 0px no-repeat; display:block;}
+.hst_menu { width:218px; margin-top:15px;}
+.hst_menu li { margin-top: 1px;}
+.hst_menu li a { height:38px; line-height:38px; padding-left:20px; font-size:12px; color:#FFF; display:block; font-weight:bold; background:#3ba3e0 url(../images/img_11.jpg) 200px center no-repeat;}
+.hst_menu li a.bei {background:#3ba3e0 url(../images/img_08.jpg) 200px center no-repeat;}
+.hst_menu li ul { margin-top:5px;}
+.hst_menu li li {height:32px; line-height:32px; background:0;}
+.hst_menu li li a img { width:16px; height:16px; margin:0 5px; padding-top:12px; display:inline-block; float:left; display:inline;}
+.hst_menu li li a { padding-left:20px; line-height:38px; color:#FFF; background:0;}
+.hst_menu li li a.bei,.hst_menu li li a.bei:hover { background:#028fd4;}
+.hst_menu li li a:hover { background:#0892d5;}
+
+.close{ display:none}
+.open{ display:block;}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+input,select { border:0px;}
+
+textarea{ border:0px; overflow-y:hidden;overflow-x:hidden}
+
+.Wdate{ border:#ffffff 0px solid;
+	height:20px;
+	
+	background-image:none;
+	}
